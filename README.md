@@ -1,2 +1,5 @@
-# portfolio-site
-Portfolio Site
+# Portfolio-site
+
+Portfolio Site for Teim Giesen.
+
+**Technologies:**
