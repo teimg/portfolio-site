@@ -3,74 +3,94 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `TO BE FILLED IN`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    year: "Sep 2024 - Present",
+    role: "Library Student Software Developer",
+    company: "Delft University of Technology",
+    description: `Collaborating closely with TU Delft’s Library's Service Design Team to develop, document, and test a prototype chatbot, specifically trained on library service information, with the goal of ultimately deploying it on the website.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    year: "Aug 2024 - Present",
+    role: "Student Mentor",
+    company: "Delft University of Technology",
+    description: `Helping 23 first-year students acclimate to life at TU Delft by providing academic and social support through weekly meetings, fostering bonding, promoting inclusivity, and expanding their knowledge on university-related topics.`,
     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+    year: "Jul 2024 - Present",
+    role: "Co-Founder & Software Developer",
+    company: "Timecapsule",
+    description: `Driving the realisation of Timecapsule's vision by spearheading the development of the iOS app, currently functional and in Beta on TestFlight, utilising Swift to deliver a deployable application and an intuitive user experience.`,
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+    year: "Jul 2024 - Aug 2023",
+    role: "Software Developer",
+    company: "Domes Resorts | JW Marriott",
+    description: `Delivered a customized, fine-tuned chatbot for employee use, designed to enhance customer relations and interaction.`,
     technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
   },
+  {
+    year: "Jul 2023 - Present",
+    role: "Tutor",
+    company: "Private Tutoring",
+    description: `Tutoring students in the two-year pre-university IB Diploma Program, providing personalised one-on-one instruction in Mathematics and Physics, both remotely and in person, to enhance their understanding and academic performance.`,
+    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+  }
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Splitty Expense Manager",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A full-stack, client-server architecture product built in a team of 6 developers using GitLab and a Scrum-style process. The final project contains various functionalities such as creating events, transfering debts, creating expenses, exploring statistics and more. Techniques such as long polling as well as websockets are employed to enable the aforementioned functionalities.",
+    technologies: ["Java", "JavaFX", "Spring Boot", "Spring Data", "Gradle"],
+    github: 'https://github.com/teimg/splitty-expense-manager',
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: project2,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A portfolio website deployed using various web technologies to showcase projects, professional experience, skills and contact information. This refers to the website you are currently viewing. It was built from the ground up using React.",
+    technologies: ["Javascript", "React", "HTML", "CSS", "TailWind"],
+    github: 'https://github.com/teimg/portfolio-site',
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: "Physics AI Help Tool",
+    image: project3,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "This project involves creating a physics help tool that can be used within the classroom. This includes an in-app sqlite database acting as a place for a teacher to store, view, edit and delete multiple choice questions. The tool also uses training data, collected from the client's classroom, to train a supervised learning algorithm (a decision tree created using scikit-learn) to predict a question's difficulty and thereby provide students with challenging yet manageable questions. The software also enables the creation of quizzes using questions from the database (and recommended by the machine learning algorithm). Additionally, the program includes timers, allows for freehand drawings, and includes a general 'home' to base lessons around.",
+    technologies: ["Python", "SQL"],
+    github: 'https://github.com/teimg/physics-AI-help-tool',
+  }
+];
+
+export const CERTIFICATES = [
+  {
+    title: "AI Alignment 101 Course",
+    provider: "Delft AI Safety Initiative",
+    description:
+      "A condensed 5-week course facilitated by a DAISI member, introducing you to key technical AI alignment research.npm",
+    link: 'https://github.com/teimg/splitty-expense-manager',
+  },
+  {
+    title: "Scientific Computing with Python",
+    provider: "freeCodeCamp",
+    description:
+      "A 300-hour python developer certification including 5 final coding projects.",
+    link: 'https://www.freecodecamp.org/certification/Teim_Giesen/scientific-computing-with-python-v7',
   },
 ];
 
 export const CONTACT = {
   address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  phoneNo: "+31 618696292",
+  email: "teim.giesen@gmail.com",
 };
