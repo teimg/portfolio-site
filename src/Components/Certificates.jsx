@@ -15,7 +15,9 @@ const Certificates = () => {
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 0.7 }}>
-                <p className="mb-2 text-l text-neutral-300 font-bold">{certificate.provider}</p>
+                <a href={certificate.companyLink} className="mb-2 text-l text-neutral-300 font-bold hover:text-blue-400">{certificate.provider}</a>
+                <p></p>
+                {/* <p className="mb-2 text-l text-neutral-300 font-bold"></p> */}
                 <a href={certificate.link} className="mb-2 text-sm text-neutral-300 hover:text-blue-400">Proof of Credentials</a>
             </motion.div>
             <motion.div className="w-full max-x-xl lg:w-3/4"

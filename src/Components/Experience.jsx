@@ -21,7 +21,16 @@ const Experience = () => {
                 whileInView={{opacity: 1, x: 0}}
                 initial={{opacity:0, x: 100}}
                 transition={{duration: 0.7}}>
-                    <h5 className="mb-2 font-semibold">{experience.role} - {experience.company}</h5>
+                    <h5 className="mb-2 font-semibold">{experience.role} -
+                        <a 
+                          href={experience.companyLink} 
+                          target="_blank" 
+                          rel="noopener noreferrer" 
+                          className="text-blue-500"
+                        >
+                           {experience.company}
+                        </a>
+                    </h5>
                     <p className="mb-4 text-neutral-300">
                         {experience.description}
                     </p>
