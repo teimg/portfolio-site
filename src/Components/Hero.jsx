@@ -14,7 +14,7 @@ const Hero = () => {
                     transition={{duration: 0.5, delay: 0.5}}>
                         Teim Giesen
                     </motion.h1>
-                    <motion.span className="bg-gradient-to-l from-red-300 via-slate-500 to-blue-500 bg-clip-text text-1xl track-tight text-transparent"
+                    <motion.span className="bg-gradient-to-l from-red-300 via-slate-500 to-blue-500 bg-clip-text text-2xl track-tight text-transparent max-w-xl"
                     initial = {{x: -100, opacity: 0}}
                     animate = {{x: 0, opacity: 1}}
                     transition={{duration: 0.5, delay: 0.75}}>
@@ -30,7 +30,7 @@ const Hero = () => {
             </div>
             <div className="w-full lg:w-1/2 lg:p-8">
                 <div className="flex justify-center">
-                    <motion.img src={img} alt="Teim Giesen" initial = {{x: 100, opacity: 0}}
+                    <motion.img src={img} alt="Teim Giesen" className="w-3/4" initial = {{x: 100, opacity: 0}}
                     animate = {{x: 0, opacity: 1}}
                     transition={{duration: 0.5, delay: 1.25}}/>
                 </div>
