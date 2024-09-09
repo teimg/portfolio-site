@@ -83,7 +83,7 @@ export const CERTIFICATES = [
     provider: "Delft AI Safety Initiative",
     description:
       "A condensed 5-week course facilitated by a DAISI member, introducing you to key technical AI alignment research.",
-    link: 'https://github.com/teimg/splitty-expense-manager',
+    link: 'https://drive.google.com/file/d/1ilbSnChbvWpyAqQenQjLWB3mApb6E0X8/view?usp=sharing',
     companyLink: "https://www.delftaisafety.org/daisi-agisf-curriculum"
   },
   {
