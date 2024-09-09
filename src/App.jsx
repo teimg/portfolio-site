@@ -6,6 +6,8 @@ import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
 import Certificates from "./Components/Certificates";
 
+import { Analytics } from '@vercel/analytics/react';
+
 const App = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
@@ -20,6 +22,7 @@ const App = () => {
         <Technologies />
         <Certificates />
         <Contact />
+        <Analytics />
       </div>
     </div>
   );
