@@ -3,9 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a resourceful and determined engineer with a passion for solving complex problems. I excel at rapidly learning new concepts and thrive in environments that demand innovation, creative solutions and a proactive approach.\n\nCurrently, I am a prospective honors student in my second year of Computer Science and Engineering at Delft University of Technology, where I am proud to maintain a summa cum laude average of 9.42/10 (4.00 GPA). In addition to my academics, I am the co-founder of Timecapsule and also hold multiple roles within TU Delft, where I contribute my skills to various ventures.`;
-
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = `I am a resourceful and determined engineer with a passion for solving complex problems. I excel at rapidly learning new concepts and thrive in environments that demand innovation, creative solutions and a proactive approach.\n\nCurrently, I am a honours student in my second year of Computer Science and Engineering at Delft University of Technology, where I am proud to maintain a summa cum laude average of 9.42/10 (4.00 GPA). In addition to my academics, I am the co-founder of Timecapsule and also hold multiple roles within TU Delft, where I contribute my skills to various ventures.`;
 
 export const EXPERIENCES = [
   {
@@ -27,8 +25,8 @@ export const EXPERIENCES = [
   {
     year: "Jul 2024 - Present",
     role: "Co-Founder & Software Developer",
-    company: " Timecapsule",
-    description: `Driving the realisation of Timecapsule's vision by spearheading the development of the iOS app, currently functional and in Beta on TestFlight, utilising Swift to deliver a deployable application and an intuitive user experience.`,
+    company: " Recollect",
+    description: `Driving the realisation of Recollect's vision by spearheading the development of the iOS app, currently functional and in Beta on TestFlight, utilising Swift to deliver a deployable application and an intuitive user experience.`,
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
     companyLink: "https://www.linkedin.com/company/timecapsule024"
   },
