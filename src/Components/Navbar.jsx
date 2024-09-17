@@ -8,7 +8,7 @@ const Navbar = () => {
         <h1>Teim Giesen</h1>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <a href="https://www.linkedin.com/in/teim-giesen-1bb140286/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/teim-giesen/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />
         </a>
         <a href="https://github.com/teimg" target="_blank" rel="noopener noreferrer">
