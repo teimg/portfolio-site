@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a resourceful and determined engineer with a passion for solving complex problems. I excel at rapidly learning new concepts and thrive in environments that demand innovation, creative solutions and a proactive approach.\n\nCurrently, I am a Honours student in my second year of Computer Science and Engineering at Delft University of Technology, where I am proud to maintain a (summa) cum laude average of 9.42/10 (4.00 GPA); ranking me as the 7th highest scoring student across the Netherlands in Mathematics and Computer Science. In addition to my academics, I am the co-founder of Timecapsule and also hold multiple roles within TU Delft, where I contribute my skills to various ventures.`;
+export const HERO_CONTENT = `I am a resourceful and determined engineer with a passion for solving complex problems. I excel at rapidly learning new concepts and thrive in environments that demand innovation, creative solutions and a proactive approach.\n\nCurrently, I am a Honours student in my second year of Computer Science and Engineering at Delft University of Technology, where I am proud to maintain a (summa) cum laude average of 9.42/10 (4.00 GPA); ranking me as the 7th highest scoring student across the Netherlands in Mathematics and Computer Science (KIVI Engineering Encouragement Prize). In addition to my academics, I am the co-founder of Timecapsule and also hold multiple roles within TU Delft, where I contribute my skills to various ventures.`;
 
 export const EXPERIENCES = [
   {
