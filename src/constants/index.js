@@ -7,6 +7,14 @@ export const HERO_CONTENT = `I am a resourceful and determined engineer with a p
 
 export const EXPERIENCES = [
   {
+    year: "Oct 2024 - Present",
+    role: "Teaching Assistant | Collaborative Software Engineering Project",
+    company: " Delft University of Technology",
+    description: `I supervise four student group projects within the SCRUM framework, leading weekly meetings as scrum master to ensure agile practices are followed. My role includes guiding project planning, resolving roadblocks, and providing formative and summative feedback on performance.`,
+    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    companyLink: "https://www.linkedin.com/school/tudelft/"
+  },
+  {
     year: "Sep 2024 - Present",
     role: "Library Student Software Developer",
     company: " Delft University of Technology",
@@ -31,20 +39,20 @@ export const EXPERIENCES = [
     companyLink: "https://www.linkedin.com/company/timecapsule024"
   },
   {
-    year: "Jul 2024 - Aug 2023",
-    role: "Software Developer",
-    company: " Domes Resorts | JW Marriott",
-    description: `Delivered a customized, fine-tuned chatbot for employee use, designed to enhance customer relations and interaction.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-    companyLink: "https://www.linkedin.com/company/domesresorts"
-  },
-  {
     year: "Jul 2023 - Present",
     role: "Tutor",
     company: " Private Tutoring",
     description: `Tutoring students in the two-year pre-university IB Diploma Program, providing personalised one-on-one instruction in Mathematics and Physics, both remotely and in person, to enhance their understanding and academic performance.`,
     technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
     companyLink: "https://www.linkedin.com/in/teim-giesen-1bb140286/"
+  },
+  {
+    year: "Jul 2024 - Aug 2023",
+    role: "Software Developer",
+    company: " Domes Resorts | JW Marriott",
+    description: `Delivered a customized, fine-tuned chatbot for employee use, designed to enhance customer relations and interaction.`,
+    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    companyLink: "https://www.linkedin.com/company/domesresorts"
   }
 ];
 
