@@ -10,13 +10,13 @@ export const EXPERIENCES = [
     year: "Oct 2024 - Present",
     role: "Teaching Assistant | Collaborative Software Engineering Project",
     company: " Delft University of Technology",
-    description: `I supervise four student group projects within the SCRUM framework, leading weekly meetings as scrum master to ensure agile practices are followed. My role includes guiding project planning, resolving roadblocks, and providing formative and summative feedback on performance.`,
+    description: `I supervise four student group projects following the scrum framework and lead weekly meetings as scrum master to ensure agile practices are being followed. My role also includes guiding project planning, resolving roadblocks, and providing formative and summative feedback on performance.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
     companyLink: "https://www.linkedin.com/school/tudelft/"
   },
   {
     year: "Sep 2024 - Present",
-    role: "Library Student Software Developer",
+    role: "Student Software Developer",
     company: " Delft University of Technology",
     description: `Collaborating closely with TU Delft’s Library's Service Design Team to develop, document, and test a prototype chatbot, specifically trained on library service information, with the goal of ultimately deploying it on the website.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
