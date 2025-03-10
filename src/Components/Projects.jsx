@@ -24,12 +24,6 @@ const Projects = () => {
               <p className="mb-3 text-l text-neutral-300 font-bold">
                 {project.title}
               </p>
-              <a
-                href={project.github}
-                className="mb-2 text-sm text-neutral-300 hover:text-blue-400"
-              >
-                GitHub & Video Demos
-              </a>
             </motion.div>
             <motion.div
               className="w-full max-x-xl lg:w-3/4"

@@ -3,17 +3,9 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a resourceful and determined engineer with a passion for solving complex problems. I excel at rapidly learning new concepts and thrive in environments that demand innovation, creative solutions and a proactive approach.\n\nCurrently, I am a Honours student in my second year of Computer Science and Engineering at Delft University of Technology, where I am proud to maintain a (summa) cum laude average of 9.42/10 (4.00 GPA); ranking me as the 7th highest scoring student across the Netherlands in Mathematics and Computer Science (KIVI Engineering Encouragement Prize). In addition to my academics, I am the co-founder of Timecapsule and also hold multiple roles within TU Delft, where I contribute my skills to various ventures.`;
+export const HERO_CONTENT = `I am a resourceful and determined engineer with a passion for solving complex problems. I excel at rapidly learning new concepts and thrive in environments that demand innovation, creative solutions and a proactive approach.`;
 
 export const EXPERIENCES = [
-  {
-    year: "Oct 2024 - Present",
-    role: "Teaching Assistant | Collaborative Software Engineering Project",
-    company: " Delft University of Technology",
-    description: `I supervise four student group projects following the scrum framework and lead weekly meetings as scrum master to ensure agile practices are being followed. My role also includes guiding project planning, resolving roadblocks, and providing formative and summative feedback on performance.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-    companyLink: "https://www.linkedin.com/school/tudelft/"
-  },
   {
     year: "Sep 2024 - Present",
     role: "Student Software Developer",
@@ -23,7 +15,23 @@ export const EXPERIENCES = [
     companyLink: "https://www.linkedin.com/school/tudelft/"
   },
   {
-    year: "Aug 2024 - Present",
+    year: "Feb 2025 - Present",
+    role: "Teaching Assistant | Information and Data Management",
+    company: " Delft University of Technology",
+    description: `Assisted students in lab sessions with SQL, relational algebra, query processing, transactions, indexing, and file organisation, while also providing assignment support, feedback, and grading coursework for fair evaluation`,
+    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    companyLink: "https://www.linkedin.com/school/tudelft/"
+  },
+  {
+    year: "Oct 2024 - Feb 2025",
+    role: "Teaching Assistant | Collaborative Software Engineering Project",
+    company: " Delft University of Technology",
+    description: `I supervise four student group projects following the scrum framework and lead weekly meetings as scrum master to ensure agile practices are being followed. My role also includes guiding project planning, resolving roadblocks, and providing formative and summative feedback on performance.`,
+    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    companyLink: "https://www.linkedin.com/school/tudelft/"
+  },
+  {
+    year: "Aug 2024 - Jan 2025",
     role: "Student Mentor",
     company: " Delft University of Technology",
     description: `Helping 23 first-year students acclimate to life at TU Delft by providing academic and social support through weekly meetings, fostering bonding, promoting inclusivity, and expanding their knowledge on university-related topics.`,
@@ -45,41 +53,44 @@ export const EXPERIENCES = [
     description: `Tutoring students in the two-year pre-university IB Diploma Program, providing personalised one-on-one instruction in Mathematics and Physics, both remotely and in person, to enhance their understanding and academic performance.`,
     technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
     companyLink: "https://www.linkedin.com/in/teim-giesen-1bb140286/"
-  },
-  {
-    year: "Jul 2024 - Aug 2023",
-    role: "Software Developer",
-    company: " Domes Resorts | JW Marriott",
-    description: `Delivered a customized, fine-tuned chatbot for employee use, designed to enhance customer relations and interaction.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-    companyLink: "https://www.linkedin.com/company/domesresorts"
   }
 ];
 
 export const PROJECTS = [
   {
+    title: "Ray Tracer in C++",
+    image: project1,
+    description:
+      "Built a recursive ray tracer from scratch in a team, focusing on (glossy) reflections, transparency, BVH acceleration and environment maps.",
+    technologies: ["C++", "OpenGL"]
+  },
+  {
+    title: "LLM-powered Support Assistant",
+    image: project1,
+    description:
+      "Developed a solution to streamline a hotel chain's support system in the form of a fine-tuned chatbot meant to be used by employees of the company to answer client questions.",
+    technologies: ["Python"]
+  },
+  {
     title: "Splitty Expense Manager",
     image: project1,
     description:
       "A full-stack, client-server architecture product built in a team of 6 developers using GitLab and a Scrum-style process. The final project contains various functionalities such as creating events, transfering debts, creating expenses, exploring statistics and more. Techniques such as long polling as well as websockets are employed to enable the aforementioned functionalities.",
-    technologies: ["Java", "JavaFX", "Spring Boot", "Spring Data", "Gradle"],
-    github: 'https://github.com/teimg/splitty-expense-manager',
+    technologies: ["Java", "JavaFX", "Spring Boot", "Spring Data", "Gradle"]
   },
   {
     title: "Portfolio Website",
     image: project2,
     description:
       "A portfolio website deployed using various web technologies to showcase projects, professional experience, skills and contact information. This refers to the website you are currently viewing. It was built from the ground up using React.",
-    technologies: ["Javascript", "React", "HTML", "CSS"],
-    github: 'https://github.com/teimg/portfolio-site',
+    technologies: ["Javascript", "React", "HTML", "CSS"]
   },
   {
     title: "Physics AI Help Tool",
     image: project3,
     description:
       "This project involves creating a physics help tool that can be used within the classroom. This includes an in-app sqlite database acting as a place for a teacher to store, view, edit and delete multiple choice questions. The tool also uses training data, collected from the client's classroom, to train a supervised learning algorithm (a decision tree created using scikit-learn) to predict a question's difficulty and thereby provide students with challenging yet manageable questions. The software also enables the creation of quizzes using questions from the database (and recommended by the machine learning algorithm). Additionally, the program includes timers, allows for freehand drawings, and includes a general 'home' to base lessons around.",
-    technologies: ["Python", "SQL"],
-    github: 'https://github.com/teimg/physics-AI-help-tool',
+    technologies: ["Python", "SQL"]
   }
 ];
 
@@ -103,7 +114,6 @@ export const CERTIFICATES = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
   phoneNo: "+31 618696292",
   email: "teim.giesen@gmail.com",
 };
