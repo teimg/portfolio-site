@@ -7,6 +7,14 @@ export const HERO_CONTENT = `I am a resourceful and determined engineer with a p
 
 export const EXPERIENCES = [
   {
+    year: "Apr 2025 - Present",
+    role: "Software Engineering Intern",
+    company: " Google",
+    description: `Collaborating in a team of five to research, implement, test, and evaluate an AI-assisted platform for Google’s Automated Sales Enablement Program. I leverage LLMs to streamline and automate the process, incorporating proven instructional design models to maximise efficiency and scalability while addressing key challenges in sales curriculum creation.`,
+    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    companyLink: "https://www.linkedin.com/company/google/"
+  },
+  {
     year: "Sep 2024 - Present",
     role: "Student Software Developer",
     company: " Delft University of Technology",
