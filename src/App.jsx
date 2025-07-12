@@ -1,10 +1,8 @@
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero"
-import Technologies from "./Components/Technologies";
 import Experience from "./Components/Experience";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
-import Certificates from "./Components/Certificates";
 
 import { Analytics } from '@vercel/analytics/react';
 
@@ -19,8 +17,6 @@ const App = () => {
         <Hero />
         <Experience />
         <Projects />
-        <Technologies />
-        <Certificates />
         <Contact />
         <Analytics />
       </div>

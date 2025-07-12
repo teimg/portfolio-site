@@ -18,7 +18,7 @@ const Hero = () => {
                     initial = {{x: -100, opacity: 0}}
                     animate = {{x: 0, opacity: 1}}
                     transition={{duration: 0.5, delay: 0.75}}>
-                        Computer Science and Engineering Honours student at Delft's University of Technology
+                        SWE Intern at Booking.com | CS and Engineering Honours student at Delft's University of Technology
                     </motion.span>
                     <motion.p className="my-2 max-w-xl py-6 font-light tracking-tighter"
                     initial = {{x: -100, opacity: 0}}

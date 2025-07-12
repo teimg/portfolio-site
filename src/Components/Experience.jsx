@@ -31,9 +31,10 @@ const Experience = () => {
                            {experience.company}
                         </a>
                     </h5>
-                    <p className="mb-4 text-neutral-300">
-                        {experience.description}
-                    </p>
+                    <p
+                        className="mb-4 text-neutral-300"
+                        dangerouslySetInnerHTML={{ __html: experience.description }}
+                    />
                 </motion.div>
             </div>    
             ))}

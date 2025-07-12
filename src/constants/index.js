@@ -7,10 +7,18 @@ export const HERO_CONTENT = `I am a resourceful and determined engineer with a p
 
 export const EXPERIENCES = [
   {
-    year: "Apr 2025 - Present",
+    year: "July 2025 - Present",
+    role: "Software Engineering Intern",
+    company: " Booking.com",
+    description: `Interning at Booking.com, I work with the SEO team to drive organic traffic growth for search queries. Collaborating cross-functionally and with full-stack solutions to enhance search visibility at scale and drive user engagement. Also, developing my technical and soft skills through workshops, mentoring sessions, and hands-on projects`,
+    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    companyLink: "https://www.linkedin.com/company/booking.com"
+  },
+  {
+    year: "Apr 2025 - July 2025",
     role: "Software Engineering Intern",
     company: " Google",
-    description: `Collaborating in a team of five to research, implement, test, and evaluate an AI-assisted platform for Google’s Automated Sales Enablement Program. I leverage LLMs to streamline and automate the process, incorporating proven instructional design models to maximise efficiency and scalability while addressing key challenges in sales curriculum creation.`,
+    description: `Collaborated in a team of five to research, implement, test, and evaluate an AI-assisted platform for Google’s Automated Sales Enablement Programs. Leveraged LLMs to streamline and automate the process, incorporating proven instructional design models and patterns to maximise efficiency and scalability while addressing key challenges in sales curriculum creation.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
     companyLink: "https://www.linkedin.com/company/google/"
   },
@@ -23,18 +31,14 @@ export const EXPERIENCES = [
     companyLink: "https://www.linkedin.com/school/tudelft/"
   },
   {
-    year: "Feb 2025 - Present",
-    role: "Teaching Assistant | Information and Data Management",
+    year: "Oct 2024 - Jun 2025",
+    role: "Teaching Assistant",
     company: " Delft University of Technology",
-    description: `Assisted students in lab sessions with SQL, relational algebra, query processing, transactions, indexing, and file organisation, while also providing assignment support, feedback, and grading coursework for fair evaluation`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-    companyLink: "https://www.linkedin.com/school/tudelft/"
-  },
-  {
-    year: "Oct 2024 - Feb 2025",
-    role: "Teaching Assistant | Collaborative Software Engineering Project",
-    company: " Delft University of Technology",
-    description: `I supervise four student group projects following the scrum framework and lead weekly meetings as scrum master to ensure agile practices are being followed. My role also includes guiding project planning, resolving roadblocks, and providing formative and summative feedback on performance.`,
+    description: `Provide academic support across multiple courses through lab guidance, assignment feedback, and exam grading.<br /><br />
+  • <strong>Software Quality & Testing:</strong> Unit, integration, and system testing, TDD, mocking, contracts, design for testability.<br />
+  • <strong>Probability Theory and Statistics:</strong> Random variables, statistical inference, linear regression, Python assignments.<br />
+  • <strong>Information and Data Management:</strong> SQL, relational algebra, query optimisation, indexing, transactions.<br />
+  • <strong>Collaborative Software Engineering Project:</strong> Scrum master, mentoring teams and facilitating agile development.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
     companyLink: "https://www.linkedin.com/school/tudelft/"
   },
@@ -47,15 +51,15 @@ export const EXPERIENCES = [
     companyLink: "https://www.linkedin.com/school/tudelft/"
   },
   {
-    year: "Jul 2024 - Present",
+    year: "Jul 2024 - Jun 2025",
     role: "Co-Founder & Software Developer",
     company: " Recollect",
-    description: `Driving the realisation of Recollect's vision by spearheading the development of the iOS app, currently functional and in Beta on TestFlight, utilising Swift to deliver a deployable application and an intuitive user experience.`,
+    description: `Worked as a co-founder to bring Recollect's (formerly Timecapsule) vision to life. I primarily focused on the development of the IOS application (currently in Beta) using SwiftUI.`,
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
     companyLink: "https://www.linkedin.com/company/timecapsule024"
   },
   {
-    year: "Jul 2023 - Present",
+    year: "Jul 2023 - Jun 2025",
     role: "Tutor",
     company: " Private Tutoring",
     description: `Tutoring students in the two-year pre-university IB Diploma Program, providing personalised one-on-one instruction in Mathematics and Physics, both remotely and in person, to enhance their understanding and academic performance.`,
@@ -73,18 +77,18 @@ export const PROJECTS = [
     technologies: ["C++", "OpenGL"]
   },
   {
+    title: "Splitty Expense Manager",
+    image: project1,
+    description:
+      "A full-stack, client-server architecture product built in a team of 6 developers using GitLab and a Scrum-style process. The final project contains various functionalities such as creating events, transfering debts, creating expenses, exploring statistics and more. Techniques such as long polling as well as websockets are employed to enable the aforementioned functionalities.",
+    technologies: ["Java", "JavaFX", "Spring", "Gradle"]
+  },
+  {
     title: "LLM-powered Support Assistant",
     image: project1,
     description:
       "Developed a solution to streamline a hotel chain's support system in the form of a fine-tuned chatbot meant to be used by employees of the company to answer client questions.",
     technologies: ["Python"]
-  },
-  {
-    title: "Splitty Expense Manager",
-    image: project1,
-    description:
-      "A full-stack, client-server architecture product built in a team of 6 developers using GitLab and a Scrum-style process. The final project contains various functionalities such as creating events, transfering debts, creating expenses, exploring statistics and more. Techniques such as long polling as well as websockets are employed to enable the aforementioned functionalities.",
-    technologies: ["Java", "JavaFX", "Spring Boot", "Spring Data", "Gradle"]
   },
   {
     title: "Portfolio Website",
@@ -97,28 +101,9 @@ export const PROJECTS = [
     title: "Physics AI Help Tool",
     image: project3,
     description:
-      "This project involves creating a physics help tool that can be used within the classroom. This includes an in-app sqlite database acting as a place for a teacher to store, view, edit and delete multiple choice questions. The tool also uses training data, collected from the client's classroom, to train a supervised learning algorithm (a decision tree created using scikit-learn) to predict a question's difficulty and thereby provide students with challenging yet manageable questions. The software also enables the creation of quizzes using questions from the database (and recommended by the machine learning algorithm). Additionally, the program includes timers, allows for freehand drawings, and includes a general 'home' to base lessons around.",
+      "Developed a classroom tool combining an in-app SQLite database and machine learning to help teachers manage and personalize multiple-choice quizzes. Features include question storage, difficulty prediction using a decision tree, quiz generation, timers, freehand drawing, and a central home interface for lesson flow.",
     technologies: ["Python", "SQL"]
   }
-];
-
-export const CERTIFICATES = [
-  {
-    title: "AI Alignment 101 Course",
-    provider: "Delft AI Safety Initiative",
-    description:
-      "A condensed 5-week course facilitated by a DAISI member, introducing you to key technical AI alignment research.",
-    link: 'https://drive.google.com/file/d/1ilbSnChbvWpyAqQenQjLWB3mApb6E0X8/view?usp=sharing',
-    companyLink: "https://www.delftaisafety.org/daisi-agisf-curriculum"
-  },
-  {
-    title: "Scientific Computing with Python",
-    provider: "freeCodeCamp",
-    description:
-      "A 300-hour python developer certification including 5 final coding projects.",
-    link: 'https://www.freecodecamp.org/certification/Teim_Giesen/scientific-computing-with-python-v7',
-    companyLink: "https://www.freecodecamp.org/"
-  },
 ];
 
 export const CONTACT = {
