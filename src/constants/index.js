@@ -73,7 +73,7 @@ export const PROJECTS = [
     title: "Ray Tracer in C++",
     image: project1,
     description:
-      "Built a recursive ray tracer from scratch in a team, focusing on (glossy) reflections, transparency, BVH acceleration and environment maps.",
+      "Built a recursive ray tracer in C++ and OpenGL using GitLab. Focused on ray reflections, transparency, glossy reflections, BVH acceleration, and environment mapping. Strengthened skills in C++, linear algebra, and team collaboration.",
     technologies: ["C++", "OpenGL"]
   },
   {
@@ -87,7 +87,7 @@ export const PROJECTS = [
     title: "Paret Interpreter",
     image: project1,
     description:
-      "Developed a functional interpreter for 'Paret' in Scala, featuring full support for higher-order function calls, lexical scoping, mutable state, object manipulation, static type inference, and lazy evaluation.",
+      "Developed a functional interpreter for 'Paret' in Scala, featuring full support for higher-order function calls, desugaring, lexical scoping, mutable state, object manipulation, static type inference, and lazy evaluation.",
     technologies: ["Scala"]
   },
   {
