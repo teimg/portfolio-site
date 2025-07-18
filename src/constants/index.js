@@ -77,6 +77,20 @@ export const PROJECTS = [
     technologies: ["C++", "OpenGL"]
   },
   {
+    title: "Computational Intelligence",
+    image: project1,
+    description:
+      "Created multiple computational intelligence projects from scratch, including: an Ant Colony Optimization algorithm and Genetic Algorithms for solving the Travelling Salesman Problem; a custom Artificial Neural Network with regularization and hyperparameter tuning; and reinforcement learning for robotic decision-making using both Q-learning and SARSA.",
+    technologies: ["Python"]
+  },
+  {
+    title: "Paret Interpreter",
+    image: project1,
+    description:
+      "Developed a functional interpreter for 'Paret' in Scala, featuring full support for higher-order function calls, lexical scoping, mutable state, object manipulation, static type inference, and lazy evaluation.",
+    technologies: ["Scala"]
+  },
+  {
     title: "Splitty Expense Manager",
     image: project1,
     description:
