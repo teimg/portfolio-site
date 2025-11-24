@@ -1,4 +1,6 @@
 import {HERO_CONTENT} from "../constants"
+import {HERO_BANNER} from "../constants"
+import {NAME} from "../constants"
 import img from "../assets/about.jpg"
 import {motion} from "framer-motion"
 
@@ -12,15 +14,15 @@ const Hero = () => {
                     initial = {{x: -100, opacity: 0}}
                     animate = {{x: 0, opacity: 1}}
                     transition={{duration: 0.5, delay: 0.5}}>
-                        Teim Giesen
+                        {NAME}
                     </motion.h1>
                     <motion.span className="bg-gradient-to-l from-red-300 via-slate-500 to-blue-500 bg-clip-text text-2xl track-tight text-transparent max-w-xl"
                     initial = {{x: -100, opacity: 0}}
                     animate = {{x: 0, opacity: 1}}
                     transition={{duration: 0.5, delay: 0.75}}>
-                        SWE Intern at Booking.com | CS and Engineering Honours student at Delft's University of Technology
+                        {HERO_BANNER}
                     </motion.span>
-                    <motion.p className="my-2 max-w-xl py-6 font-light tracking-tighter"
+                    <motion.p className="my-2 text-xl max-w-xl py-6 font-light tracking-tighter"
                     initial = {{x: -100, opacity: 0}}
                     animate = {{x: 0, opacity: 1}}
                     transition={{duration: 0.5, delay: 1}}>

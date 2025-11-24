@@ -3,11 +3,15 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
+export const NAME = 'Teim Giesen'
+
 export const HERO_CONTENT = `I am a resourceful and determined engineer with a passion for solving complex problems. I excel at rapidly learning new concepts and thrive in environments that demand innovation, creative solutions and a proactive approach.`;
+
+export const HERO_BANNER = 'SEMP @ ETH Zürich | CSE Honours @ TU Delft'
 
 export const EXPERIENCES = [
   {
-    year: "July 2025 - Present",
+    year: "Jul 2025 - Aug 2025",
     role: "Software Engineering Intern",
     company: " Booking.com",
     description: `Interning at Booking.com, I work with the SEO team to drive organic traffic growth for search queries. Collaborating cross-functionally and with full-stack solutions to enhance search visibility at scale and drive user engagement. Also, developing my technical and soft skills through workshops, mentoring sessions, and hands-on projects`,
@@ -15,7 +19,7 @@ export const EXPERIENCES = [
     companyLink: "https://www.linkedin.com/company/booking.com"
   },
   {
-    year: "Apr 2025 - July 2025",
+    year: "Apr 2025 - Jul 2025",
     role: "Software Engineering Intern",
     company: " Google",
     description: `Collaborated in a team of five to research, implement, test, and evaluate an AI-assisted platform for Google’s Automated Sales Enablement Programs. Leveraged LLMs to streamline and automate the process, incorporating proven instructional design models and patterns to maximise efficiency and scalability while addressing key challenges in sales curriculum creation.`,
@@ -23,7 +27,7 @@ export const EXPERIENCES = [
     companyLink: "https://www.linkedin.com/company/google/"
   },
   {
-    year: "Sep 2024 - Present",
+    year: "Sep 2024 - Sep 2025",
     role: "Student Software Developer",
     company: " Delft University of Technology",
     description: `Collaborating closely with TU Delft’s Library's Service Design Team to develop, document, and test a prototype chatbot, specifically trained on library service information, with the goal of ultimately deploying it on the website.`,
@@ -31,7 +35,7 @@ export const EXPERIENCES = [
     companyLink: "https://www.linkedin.com/school/tudelft/"
   },
   {
-    year: "Oct 2024 - Jun 2025",
+    year: "Oct 2024 - July 2025",
     role: "Teaching Assistant",
     company: " Delft University of Technology",
     description: `Provide academic support across multiple courses through lab guidance, assignment feedback, and exam grading.<br /><br />
@@ -69,6 +73,13 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Network Security Suite",
+    image: project1,
+    description:
+      "Built a SCION endpoint featuring multipath path selection and robust path verification. Developed a Python firewall with configurable blacklisting, port-level filtering, rate-limiting, and packet-inspection capabilities.",
+    technologies: ["Golong (Go), Python"]
+  },
   {
     title: "Ray Tracer in C++",
     image: project1,
