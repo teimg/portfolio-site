@@ -7,7 +7,7 @@ export const NAME = 'Teim Giesen'
 
 export const HERO_CONTENT = `I am a resourceful and determined engineer with a passion for solving complex problems. I excel at rapidly learning new concepts and thrive in environments that demand innovation, creative solutions and a proactive approach.`;
 
-export const HERO_BANNER = 'SEMP @ ETH Zürich | CSE Honours @ TU Delft'
+export const HERO_BANNER = 'Incoming @ Citadel | CSE Honours @ TU Delft & ETH Zürich'
 
 export const EXPERIENCES = [
   {

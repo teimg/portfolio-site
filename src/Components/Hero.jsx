@@ -1,7 +1,7 @@
 import {HERO_CONTENT} from "../constants"
 import {HERO_BANNER} from "../constants"
 import {NAME} from "../constants"
-import img from "../assets/about.jpg"
+import img from "../assets/head_shot_site.jpg"
 import {motion} from "framer-motion"
 
 const Hero = () => {
@@ -16,7 +16,7 @@ const Hero = () => {
                     transition={{duration: 0.5, delay: 0.5}}>
                         {NAME}
                     </motion.h1>
-                    <motion.span className="bg-gradient-to-l from-red-300 via-slate-500 to-blue-500 bg-clip-text text-2xl track-tight text-transparent max-w-xl"
+                    <motion.span className="bg-gradient-to-l from-red-300 via-slate-500 to-blue-500 bg-clip-text text-3xl track-tight text-transparent max-w-xl"
                     initial = {{x: -100, opacity: 0}}
                     animate = {{x: 0, opacity: 1}}
                     transition={{duration: 0.5, delay: 0.75}}>
